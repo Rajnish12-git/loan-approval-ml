@@ -1,0 +1,86 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  padding: 28px 32px;
+  width: 420px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 18px;
+  color: #333;
+}
+
+.field {
+  margin-bottom: 12px;
+}
+
+label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #444;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #1976d2;
+}
+
+button {
+  width: 100%;
+  padding: 11px;
+  margin-top: 14px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #1359a6;
+}
+
+.approved {
+  color: #1b8f3a;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 14px;
+  font-size: 18px;
+}
+
+.rejected {
+  color: #d32f2f;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 14px;
+  font-size: 18px;
+}
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background: white;
+}
