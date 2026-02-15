@@ -25,7 +25,10 @@ export default function App() {
 
   const predict = async () => {
     const query = new URLSearchParams(form).toString();
-    const res = await fetch(`http://127.0.0.1:8000/predict?${query}`, { method: "POST" });
+    const res = await fetch(`https://loan-approval-ml-yiq9.onrender.com/predict?${query}`, {
+  method: "POST"
+});
+    
     const data = await res.json();
     setResult(data.prediction);
   };
